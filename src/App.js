@@ -5,6 +5,7 @@ import { AboutMe } from './AboutMeSection/AboutMe';
 import particlesconfig from './particles-config';
 import { Navbar } from './components/Navbar';
 import { Intro } from './Introduction/Intro';
+import { Projects } from './ProjectsSection/Projects'
 function App() {
   const particlesInit = async (main) =>{
     await loadFull(main);
@@ -15,6 +16,7 @@ function App() {
       {/* todo add responsive web design elements */}
       <Intro />
       <AboutMe/>
+      <Projects />
       <Particles id="particles-here" init={particlesInit} options={particlesconfig}/>
     </div>
   );

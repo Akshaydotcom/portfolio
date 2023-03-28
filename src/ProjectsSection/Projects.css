@@ -1,0 +1,26 @@
+.project--holder{
+    height:100vh;
+    margin-left:15%;
+    margin-right:15%
+}
+.project--holder h2{
+    color:white;
+}
+.projects{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.first img, .second img{
+    width:95%;
+}
+.first p, .second p{
+    color: white;
+}
+.featured{
+    color: white;
+    list-style-type: none;
+    display: inline-flex;
+}
+.featured li{
+    padding-right:15px;
+}
