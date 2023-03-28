@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
 import './App.css';
-
+import { AboutMe } from './AboutMeSection/AboutMe';
+import particlesconfig from './particles-config';
+import { Navbar } from './components/Navbar';
+import { Intro } from './Introduction/Intro';
 function App() {
+  const particlesInit = async (main) =>{
+    await loadFull(main);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar /> 
+      {/* todo add responsive web design elements */}
+      <Intro />
+      <AboutMe/>
+      <Particles id="particles-here" init={particlesInit} options={particlesconfig}/>
     </div>
   );
 }

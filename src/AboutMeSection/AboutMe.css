@@ -1,0 +1,19 @@
+.main{
+    color:white;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height:100vh;
+}
+.main p{
+    margin-left:20%;
+}
+.img-container{
+    margin-top: 10%;
+    margin-left:10%;
+}
+.img-container img{
+    width:60%;
+    border-radius: 100%;
+} 
+

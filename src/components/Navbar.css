@@ -1,0 +1,13 @@
+.navbar{
+    display: inline-block;
+  }
+  
+  .navbar ul{
+    list-style-type: none;
+    color: whitesmoke;
+    display: inline-flex;
+    justify-content: space-evenly;
+  }
+  .navbar ul li{
+    margin:0 10px 0 10px
+  }
