@@ -2,12 +2,14 @@
     display: inline-block;
   }
   
-  .navbar ul{
+  .navbar ul, .navbar ul li a{
     list-style-type: none;
     color: whitesmoke;
     display: inline-flex;
     justify-content: space-evenly;
+    text-decoration: none;
   }
   .navbar ul li{
     margin:0 10px 0 10px
   }
+  

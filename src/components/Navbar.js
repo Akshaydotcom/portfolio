@@ -5,8 +5,8 @@ export const Navbar=()=>{
         <div className="navbar">
             <ul>
           <li>Logo</li>
-          <li>About Me</li>
-          <li>Projects</li>
+          <li><a href="#AboutMe">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
           <li>Work Experience</li>
           <li>Contact Me</li>
         </ul>
