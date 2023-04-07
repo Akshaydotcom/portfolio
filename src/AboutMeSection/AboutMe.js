@@ -7,7 +7,7 @@ export const AboutMe=()=>{
     
     <div className='main' id='AboutMe'>
         <div>
-        <p>Hi, I am Akshay, a budding Web Developer with a passion for building awesome-looking websites using ReactJs and Node. With over 3 years of experience in web development, I have worked on a variety of projects with large enterprise applications. <br/>
+        <p>Hi, I am a budding Web Developer with a passion for building awesome-looking websites using ReactJs and Node. With over 3 years of experience in web development, I have worked on a variety of projects with large enterprise applications. <br/>
         </p>
         <p>
         I specialize in developing responsive, user-friendly, and highly-functional websites using ReactJs, Node, HTML5, CSS3, and JavaScript. <br/>
