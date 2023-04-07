@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.css";
 import RockPaperScissors from "./Rock-Paper-Scissors.png";
 import CountryFinder from "./Country-Finder.png";
+import { ArchivedProject } from "./archivedProjects";
 export const Projects = () => {
   return (
     <section className="project--holder" id="projects">
@@ -56,6 +57,12 @@ export const Projects = () => {
         </div>
         <img src={CountryFinder} alt="Country Finder" />
       </div>
+      <h2>Archived Projects</h2>
+      <div className="archiveDivHolder">
+      <ArchivedProject title="Where's My Charger" content1="ObtainED location and trip information data from infrastructure stakeholders" content2="UseD INRIX data sources to gather information on most likely location candidates for placing a new charging station" content3="Received Honourable Mention at INRIX Hackathon held in Santa Clara University in November 2022."/>
+      <ArchivedProject title="Short the URL" content1="Web-App to shorten URLs using short-code API, sessionStorage API-A HTML5 Web Storage API to store data after refreshing browser tab." content2="CSS and Material UI for styling and Google Fonts for Letters and Numbers." content3="" githubLink="https://github.com/Akshaydotcom/url-shortening-api" websiteLink="https://agigabyte-urlshortener.netlify.app/"/>
+      </div>
+      
     </section>
   );
 };
