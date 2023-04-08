@@ -8,7 +8,7 @@ export const Navbar=()=>{
           <li><a href="#AboutMe">About Me</a></li>
           <li><a href="#projects">Projects</a></li>
           <li>Work Experience</li>
-          <li>Contact Me</li>
+          <li><a href="#ContactMe">Contact Me</a></li>
         </ul>
         </div>
     )
