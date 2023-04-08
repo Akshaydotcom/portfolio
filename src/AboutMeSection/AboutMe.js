@@ -14,8 +14,7 @@ export const AboutMe=()=>{
         Currently a Graduate student at Santa Clara University, so if You are looking for a frontend developer, I'd love to chat about potential opportunities to work together.
         </p>
         <p>
-        When I'm not coding or building, you can find me playing the guitar, watching movies or playing video games. 
-        
+        When I'm not coding or building, you can find me playing the guitar, modding custom mechanical keyboards or playing video games. 
         </p>
         </div>
         <div className='img-container'>
