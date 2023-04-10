@@ -1,4 +1,5 @@
 import './Navbar.css'
+import pdf from './Resume.pdf'
 export const Navbar=()=>{
 
     return(
@@ -10,6 +11,7 @@ export const Navbar=()=>{
           <li>Work Experience</li>
           <li><a href="#ContactMe">Contact Me</a></li>
         </ul>
+        <a href={pdf} download="Resume_Akshay"><button>Resume</button></a>
         </div>
     )
 }

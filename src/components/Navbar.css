@@ -1,5 +1,6 @@
 .navbar{
     display: inline-block;
+    width:100%;
   }
   
   .navbar ul, .navbar ul li a{
@@ -13,3 +14,12 @@
     margin:0 10px 0 10px
   }
   
+  .navbar button{
+    float: right;
+    margin: 1em;
+    margin-right: 25px;
+    color: whitesmoke;
+    background-color: #1c1c1c;
+    border:1px solid white;
+    border-radius: 10px;
+  }
