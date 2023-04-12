@@ -5,7 +5,7 @@ import { AboutMe } from './AboutMeSection/AboutMe';
 import particlesconfig from './particles-config';
 import { Navbar } from './components/Navbar';
 import { Intro } from './Introduction/Intro';
-import { Projects } from './ProjectsSection/Projects';
+import {Projects} from './ProjectsSection/Projects';
 import { ContactMe } from './contactMeSection/ContactMe';
 import { WorkEx } from './WorkExSection/WorkEx';
 function App() {
