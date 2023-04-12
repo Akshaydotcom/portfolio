@@ -17,3 +17,9 @@
     border-radius: 100%;
 } 
 
+@media screen and (min-width: 1500px) {
+    .text-container{
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+}

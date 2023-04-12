@@ -107,14 +107,14 @@ const particlesconfig={
         "duration": 0.4,
         "factor": 100,
         "speed": 1,
-        "maxSpeed": 50,
+        "maxSpeed": 30,
         "easing": "ease-out-quad",
         "divs": {
           "distance": 200,
           "duration": 0.4,
           "factor": 100,
           "speed": 1,
-          "maxSpeed": 50,
+          "maxSpeed": 30,
           "easing": "ease-out-quad",
           "selectors": []
         }
@@ -132,7 +132,7 @@ const particlesconfig={
             "value": "#ff0000",
             "animation": {
               "enable": true,
-              "speed": 400,
+              "speed": 350,
               "sync": true
             }
           },
@@ -146,13 +146,13 @@ const particlesconfig={
             "outModes": {
               "default": "destroy"
             },
-            "speed": 2
+            "speed": 1
           },
           "size": {
             "value": 5,
             "animation": {
               "enable": true,
-              "speed": 5,
+              "speed": 4,
               "minimumValue": 1,
               "sync": true,
               "startValue": "min",
