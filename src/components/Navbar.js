@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import './Navbar.css'
 import pdf from './Resume.pdf'
 export const Navbar=()=>{
