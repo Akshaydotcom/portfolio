@@ -11,10 +11,10 @@ export const AboutMe=()=>{
         </p>
         <p>
         I specialize in developing responsive, user-friendly, and highly-functional websites using ReactJs, Node, HTML5, CSS3, and JavaScript. <br/>
-        Currently a Graduate student at Santa Clara University, so if You are looking for a frontend developer, I'd love to chat about potential opportunities to work together.
+        Currently a graduate student at Santa Clara University, so if you are looking for a frontend or full-stack developer, I'd love to chat about potential opportunities to work together.
         </p>
         <p>
-        When I'm not coding or building, you can find me playing the guitar, modding custom mechanical keyboards or playing video games. 
+        When I'm not coding or working, you can find me playing the guitar, modding custom mechanical keyboards or playing video games. 
         </p>
         </div>
         <div className='img-container'>
