@@ -32,3 +32,10 @@
         height: 150vh;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .main{
+        display: block;
+        height: 150vh;
+    }
+}

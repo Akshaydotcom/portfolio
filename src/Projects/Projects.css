@@ -317,3 +317,14 @@
     height: 375vh;
   }
 }
+@media screen and (max-width: 800px) {
+  .archiveDivHolder{
+    display: block;
+  }   
+  .projects{
+    display: block;
+  }
+  .project--holder{
+    height: 325vh;
+  }
+}
