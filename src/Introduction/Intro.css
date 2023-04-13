@@ -1,5 +1,5 @@
 .Intro{
-    height:100vh;
+    height:75vh;
     margin-top:20%;
 }
 
@@ -20,4 +20,11 @@
 
 .job-profile{
     font-size: 55px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .Intro{
+        margin-top: 25%;
+    }
 }

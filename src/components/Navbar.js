@@ -11,8 +11,8 @@ export const Navbar=()=>{
           <li><a href="#projects">Projects</a></li>
           <li><a href="#Work">Work Experience</a></li>
           <li><a href="#ContactMe">Contact Me</a></li>
+          <li><a href={pdf} download="Resume_Akshay">Resume</a></li>
         </ul>
-        <a href={pdf} download="Resume_Akshay"><button>Resume</button></a>
         </div>
     )
 }

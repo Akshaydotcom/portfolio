@@ -1,5 +1,5 @@
 .project--holder {
-  height: 150vh;
+  height: 175vh;
   margin-left: 15%;
   margin-right: 15%;
 }
@@ -17,6 +17,7 @@
 .first p,
 .second p {
   color: white;
+  margin: 0;
 }
 .featured {
   color: white;
@@ -301,5 +302,18 @@
   100% {
     transform: translateY(0px);
     opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .archiveDivHolder{
+    display: block;
+  }   
+  .projects{
+    display: block;
+  }
+  .project--holder{
+    height: 375vh;
   }
 }
