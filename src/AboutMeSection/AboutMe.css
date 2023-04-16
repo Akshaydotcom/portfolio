@@ -4,9 +4,11 @@
     display: grid;
     grid-template-columns: 70% 30%;
     height:75vh;
+    animation-name: aboutme;
+    animation-duration: 5s;
 }
 .main p{
-    margin-left:15%;
+    margin-left:12%;
     margin-top:0px;
 }
 .img-container{
@@ -38,4 +40,9 @@
         display: block;
         height: 150vh;
     }
+}
+
+@keyframes aboutme {
+    from {opacity: 0;}
+    to{opacity: 1;}
 }

@@ -5,6 +5,8 @@
     top: 0;
     background-color: #1c1c1c;
     z-index: 1;
+    animation-name: trial;
+    animation-duration: 5s;
   }
   
   .navbar ul, .navbar ul li a{
@@ -30,4 +32,9 @@
     background-color: #1c1c1c;
     border:1px solid white;
     border-radius: 10px;
+  }
+
+  @keyframes trial {
+    from {top: -100px;}
+    to {top:0px}
   }
