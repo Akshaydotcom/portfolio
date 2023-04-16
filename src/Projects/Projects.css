@@ -309,6 +309,7 @@
 @media screen and (max-width: 600px) {
   .archiveDivHolder{
     display: block;
+    width: 90% !important;
   }   
   .projects{
     display: block;
