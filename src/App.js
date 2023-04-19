@@ -8,6 +8,7 @@ import { Intro } from './Introduction/Intro';
 import {Projects} from './Projects/Projects';
 import { ContactMe } from './contactMe/ContactMe';
 import { WorkEx } from './WorkEx/WorkEx';
+import React from 'react';
 function App() {
   const particlesInit = async (main) =>{
     await loadFull(main);
@@ -15,7 +16,6 @@ function App() {
   return (
     <div className="App">
       <Navbar /> 
-      {/* todo add responsive web design elements */}
       <Intro />
       <AboutMe/>
       <Projects />
