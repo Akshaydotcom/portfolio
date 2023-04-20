@@ -8,18 +8,20 @@
     animation-name: trial;
     animation-duration: 5s;
   }
-  
-  .navbar ul, .navbar ul li a{
+  .navbar > div{
+    display: inline;
+  }
+  .navbar div ul, .navbar div ul li a{
     list-style-type: none;
     color: whitesmoke;
     display: inline-flex;
     justify-content: space-evenly;
     text-decoration: none;
   }
-  .navbar ul li{
+  .navbar div ul li{
     margin:0 10px 0 10px
   }
-  .navbar ul li svg{
+  .navbar div ul li svg{
     width:75px;
     height:75px;
   }
@@ -39,7 +41,7 @@
     to {top:0px}
   }
   .navbar svg{
-    width:7%;
+    width:9%;
     height:55px;
     margin-left:10px;
     margin-top:10px;
@@ -58,6 +60,14 @@
     }
     .hide{
       display: none !important;
+    }
+    .showdiv{
+      display: block !important;
+      height:100vh;
+    }
+    .hidediv{
+      display: none;
+      height: 0px;
     }
     .hamburger-menu{
       float: right;

@@ -52,3 +52,11 @@
     display: grid;
     grid-template-columns: 40% 60%;
 }
+
+@media screen and (max-width:600px) {
+    .main_workExp{
+        height: 100vh;
+        margin-right:0%
+    }
+
+}
