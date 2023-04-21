@@ -306,7 +306,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .archiveDivHolder{
     display: block;
     width: 90% !important;
@@ -315,7 +315,7 @@
     display: block;
   }
   .project--holder{
-    height: 375vh;
+    height: 375vh !important;
   }
 }
 @media screen and (max-width: 800px) {
