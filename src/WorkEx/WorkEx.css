@@ -58,5 +58,7 @@
         height: 100vh;
         margin-right:0%
     }
-
+    .workExCompany ul li{
+        font-size: 32px;
+    }
 }
