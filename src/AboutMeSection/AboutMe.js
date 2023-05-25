@@ -1,7 +1,7 @@
 import React from 'react';
 import './AboutMe.css';
-// import Me from './kevin-ku-aiyBwbrWWlo-unsplash.jpg'
-import Me2 from './daniel-korpai-HyTwtsk8XqA-unsplash.jpg'
+import Me from './Passport-Akshay.jpg';
+// import Me2 from './daniel-korpai-HyTwtsk8XqA-unsplash.jpg'
 export const AboutMe=()=>{
     return(
     
@@ -18,7 +18,7 @@ export const AboutMe=()=>{
         </p>
         </div>
         <div className='img-container'>
-        <img src={Me2} alt=''/>
+        <img src={Me} alt=''/>
         </div>
     </div>)
 }

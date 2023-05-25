@@ -3,6 +3,7 @@
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 25%;
+    padding-top: 10%;
 }
 
 .main-contact h2{
@@ -31,4 +32,10 @@
     stroke: white;
     fill: white;
     width:30px;
+}
+
+@media screen and (max-width: 600px) {
+    .main-contact{
+        padding-top:20%;
+    }
 }

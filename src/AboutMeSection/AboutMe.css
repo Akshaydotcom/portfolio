@@ -6,6 +6,7 @@
     height:75vh;
     animation-name: aboutme;
     animation-duration: 5s;
+    padding-top: 10%;
 }
 .main p{
     margin-left:12%;
@@ -32,6 +33,7 @@
     .main{
         display: block;
         height: 150vh;
+        padding-top: 20%;
     }
     .img-container{
         margin-left: 16%;

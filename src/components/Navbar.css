@@ -16,10 +16,22 @@
     color: whitesmoke;
     display: inline-flex;
     justify-content: space-evenly;
-    text-decoration: none;
+    text-decoration: none; 
   }
   .navbar div ul li{
-    margin:0 10px 0 10px
+    margin:0 10px 0 10px;
+  }
+  .navbar div ul li a::before{
+    transition: all ease-in-out .2s;
+    border-bottom:1px solid #ffffff;
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+  }
+  .navbar div ul li a:hover::before{
+    /* text-decoration: underline; */
+    width: 100%;
   }
   .navbar div ul li svg{
     width:75px;
@@ -39,6 +51,10 @@
   @keyframes trial {
     from {top: -100px;}
     to {top:0px}
+  }
+  @keyframes borderHover {
+    from {text-decoration: none;}
+    to{text-decoration: underline;}
   }
   .navbar svg{
     width:9%;

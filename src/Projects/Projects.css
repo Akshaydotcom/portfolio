@@ -2,6 +2,7 @@
   height: 175vh;
   margin-left: 15%;
   margin-right: 15%;
+  padding-top: 10%;
 }
 .project--holder h2 {
   color: white;
@@ -316,6 +317,7 @@
   }
   .project--holder{
     height: 375vh !important;
+    padding-top: 20%;
   }
 }
 @media screen and (max-width: 800px) {
