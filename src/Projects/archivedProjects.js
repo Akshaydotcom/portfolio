@@ -2,7 +2,7 @@ import React from "react";
 export const ArchivedProject = (props) => {
   return (
       <div className="archivedProjectFolder">
-        <h2>{props.title}</h2>
+        <h4>{props.title}</h4>
         <div className="folder">
           <div className="back"></div>
           <div className="paper"></div>

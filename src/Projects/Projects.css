@@ -4,7 +4,7 @@
   margin-right: 15%;
   padding-top: 10%;
 }
-.project--holder h2 {
+.project--holder h3,.project--holder h1,.project--holder h4 {
   color: white;
 }
 .projects {
@@ -90,6 +90,7 @@
   margin-right: 50px;
   padding-left: 10px;
   padding-right: 10px;
+  margin-bottom:10px;
 }
 .archivedProjectFolder p{
   color:white;

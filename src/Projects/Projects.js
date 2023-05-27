@@ -6,8 +6,8 @@ import { ArchivedProject } from "./archivedProjects";
 export const Projects = () => {
   return (
     <section className="project--holder" id="projects">
-      <h2>Here's What I've been upto</h2>
-      <h2>Rock Paper Scissors</h2>
+      <h1>Here's What I've been upto</h1>
+      <h3>Rock Paper Scissors</h3>
       <div className="projects first">
         <div className="image_container">
           <img src={RockPaperScissors} alt="RockPaperScissor" />
@@ -36,7 +36,7 @@ export const Projects = () => {
           </ul>
         </div>
       </div>
-      <h2>Country Finder</h2>
+      <h3>Country Finder</h3>
       <div className="projects second">
         <div>
           <p className="padding-right">
@@ -65,12 +65,15 @@ export const Projects = () => {
           </div>
           </div>
       </div>
-      <h2>Archived Projects</h2>
+      <h3>Archived Projects</h3>
       <div className="archiveDivHolder">
       <ArchivedProject title="Where's My Charger" content1="Obtained location and trip information data from infrastructure stakeholders" content2="Used INRIX data sources to gather information on most likely location candidates for placing a new charging station" content3="Received Honourable Mention at INRIX Hackathon held in Santa Clara University in November 2022."/>
       <ArchivedProject title="Short the URL" content1="Web-App to shorten URLs using short-code API, sessionStorage API-A HTML5 Web Storage API to store data after refreshing browser tab." content2="CSS and Material UI for styling and Google Fonts for Letters and Numbers." content3="" githubLink="https://github.com/Akshaydotcom/url-shortening-api" websiteLink="https://agigabyte-urlshortener.netlify.app/"/>
+      <ArchivedProject title="Sales and Inventory Management System" content1="Designed and implemented a sales and inventory management system where customers could place orders for items available at a Computer Repair Shop." content2="Implemented various PL/SQL procedures and functions that cover functionalities including: creating a customer order, checking availability of items, computing total amount for an order, displaying items of an order, etc"/>
       </div>
-      
+      <div className="archiveDivHolder">
+      <ArchivedProject title="Order Action modal" content1="Developed a modal component, utilizing React framework for a marketplace application. Implemented functionality to retrieve and display order information from a remote API." content2="Calculated and displayed various financial metrics related to the sale, including selling price, commission, seller fee, and earnings." content3="Integrated acceptance and rejection of sales functionality with corresponding API calls." websiteLink="https://agigabyte-modal.netlify.app" githubLink="https://github.com/Akshaydotcom/Bezel-programming-challenge"/>
+      </div>
     </section>
   );
 };
