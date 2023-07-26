@@ -31,8 +31,8 @@ export const Navbar=()=>{
             <div className={navbarType==='mobile'&&menu?"hidediv":"showdiv"}>
                 <ul className={navbarType==='mobile'&&menu?"navbar-list hide":"navbar-list show"} >
                     <li onClick={MenuOpen}><a href="#AboutMe">About Me</a></li>
-                    <li onClick={MenuOpen}><a href="#projects">Projects</a></li>
                     <li onClick={MenuOpen}><a href="#Work">Work Experience</a></li>
+                    <li onClick={MenuOpen}><a href="#projects">Projects</a></li>
                     <li onClick={MenuOpen}><a href="#ContactMe">Contact Me</a></li>
                     <li onClick={MenuOpen}><a href={pdf} download="Resume_Akshay">Resume</a></li>
                 </ul>

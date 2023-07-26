@@ -1,13 +1,30 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 export const ArchivedProject = (props) => {
+  const [isIntersecting, setIsIntersecting]=useState(false)
+  const ref=useRef(null);
+
+  useEffect(()=>{
+    const observer=new IntersectionObserver((entries)=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          setIsIntersecting(true)
+        }
+      })
+    })
+  
+    observer.observe(ref.current);
+    return ()=>observer.disconnect();
+  },[])
+  
+  
   return (
       <div className="archivedProjectFolder">
         <h4>{props.title}</h4>
-        <div className="folder">
+        <div className="folder" ref={ref}>
           <div className="back"></div>
+          <div className={isIntersecting?"paper paper-animation-start":"paper "}></div>
           <div className="paper"></div>
-          <div className="paper"></div>
-          <div className="cover"></div>
+          <div className={isIntersecting?"cover animation-start":"cover"}></div>
         </div>
         <div>
             <p>{props.content1}</p>

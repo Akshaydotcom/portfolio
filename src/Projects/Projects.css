@@ -246,7 +246,14 @@
 
   transform-origin: 0 108%;
   transform: rotateX(0deg);
+}
+
+.animation-start{
   animation: folderUnfold 1.25s ease 0s forwards;
+}
+
+.paper-animation-start{
+  animation: folderPaperJump 0.75s ease 0.75s forwards;
 }
 /* .folder .cover:after {
   position: absolute;
@@ -273,9 +280,9 @@
   border-radius: 100%;
   opacity: 0;
   transform: translateY(100px);
-  animation: folderPaperJump 0.75s ease 0.75s forwards;
+  
 }
-.paper + .paper {
+.paper-animation-start + .paper {
   /* margin: 8px 270px 0 255px; */
   animation: folderPaperJump 0.95s ease 1s forwards;
 }

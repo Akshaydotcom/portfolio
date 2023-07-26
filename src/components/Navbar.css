@@ -21,7 +21,7 @@
   .navbar div ul li{
     margin:0 10px 0 10px;
   }
-  .navbar div ul li a::before{
+  /* .navbar div ul li a::before{
     transition: all ease-in-out .2s;
     border-bottom:1px solid #ffffff;
     content: "";
@@ -30,9 +30,9 @@
     width: 0;
   }
   .navbar div ul li a:hover::before{
-    /* text-decoration: underline; */
+    /* text-decoration: underline; 
     width: 100%;
-  }
+  } */
   .navbar div ul li svg{
     width:75px;
     height:75px;
@@ -48,14 +48,14 @@
     border-radius: 10px;
   }
 
-  @keyframes trial {
+  /* @keyframes trial {
     from {top: -100px;}
     to {top:0px}
   }
   @keyframes borderHover {
     from {text-decoration: none;}
     to{text-decoration: underline;}
-  }
+  } */
   .navbar svg{
     width:9%;
     height:55px;

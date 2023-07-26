@@ -16,11 +16,11 @@ function App() {
   return (
     <div className="App">
       <Navbar /> 
-      <Intro />
-      <AboutMe/>
-      <Projects />
-      <WorkEx />
-      <ContactMe />
+      <section><Intro /></section>
+      <section><AboutMe/></section>
+      <section><WorkEx /></section>
+      <section><Projects /></section>
+      <section><ContactMe /></section>
       <Particles id="particles-here" init={particlesInit} options={particlesconfig}/>
     </div>
   );
