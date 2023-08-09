@@ -21,6 +21,12 @@
   .navbar div ul li{
     margin:0 10px 0 10px;
   }
+  .navbar div ul li:last-child{
+    left: 100%;
+    border: 1px solid;
+    padding: 10px;
+    position: relative;
+  }
   /* .navbar div ul li a::before{
     transition: all ease-in-out .2s;
     border-bottom:1px solid #ffffff;
@@ -87,5 +93,35 @@
     }
     .hamburger-menu{
       float: right;
+    }
+  }
+  /*Mobile Breakpoint*/
+  @media screen and (min-width:320px) and  (max-width: 480px) {
+    .navbar div ul li:last-child{
+      left:0%;
+      border:none;
+      padding-left: 0%;
+    }
+  }
+
+  /*Tab Breakpoint*/
+  @media screen and (min-width:481px) and (max-width: 768px) {
+    .navbar div ul li:last-child{
+      left:10%;
+      margin:-10px 10px
+    }
+  }
+  /*Desktop Breakpoint*/
+  @media screen and (min-width:769px) and (max-width: 1024px) {
+    .navbar div ul li:last-child{
+      left:90%;
+      margin:-10px 10px
+    }
+  }
+  /*XL Breakpoint*/
+  @media screen and (min-width:1025px) {
+    .navbar div ul li:last-child{
+      left:125%;
+      margin:-10px 10px
     }
   }
