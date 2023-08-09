@@ -1,14 +1,29 @@
-import React from "react";
+import React, {useState, useRef, useEffect} from "react";
 import "./Projects.css";
 import RockPaperScissors from "./Rock-Paper-Scissors.png";
 import CountryFinder from "./Country-Finder.png";
 import { ArchivedProject } from "./archivedProjects";
 export const Projects = () => {
+  // eslint-disable-next-line no-unused-vars
+  const [isIntersecting, setIsIntersecting]=useState(false);
+  let ref=useRef(null)
+  useEffect(()=>{
+    const observer=new IntersectionObserver((elements)=>{
+      elements.forEach((element)=>{
+        if(element.isIntersecting){
+          setIsIntersecting(true)
+        }
+      })
+    })
+    observer.observe(ref.current)
+
+    return ()=>{observer.disconnect()}
+  },[])
   return (
     <section className="project--holder" id="projects">
       <h1>Here's What I've been upto</h1>
       <h3>Rock Paper Scissors</h3>
-      <div className="projects first">
+      <div ref={ref} className="projects first">
         <div className="image_container">
           <img src={RockPaperScissors} alt="RockPaperScissor" />
           <div className="overlay overlay_2">
@@ -37,7 +52,7 @@ export const Projects = () => {
         </div>
       </div>
       <h3>Country Finder</h3>
-      <div className="projects second">
+      <div ref={ref} className="projects second">
         <div>
           <p className="padding-right">
             This is a web application that provides users with information about
