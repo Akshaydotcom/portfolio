@@ -9,6 +9,9 @@ export const ArchivedProject = (props) => {
         if(entry.isIntersecting){
           setIsIntersecting(true)
         }
+        else{
+          setIsIntersecting(false)
+        }
       })
     })
   
